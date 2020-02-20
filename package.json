@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/henimezrani/Google-hashcode/issues"
   },
-  "homepage": "https://github.com/henimezrani/Google-hashcode#readme"
+  "homepage": "https://github.com/henimezrani/Google-hashcode#readme",
+  "dependencies": {
+    "split-lines": "^2.0.0"
+  }
 }
