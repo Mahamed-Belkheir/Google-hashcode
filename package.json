@@ -1,0 +1,19 @@
+{
+  "name": "google-hashcode",
+  "version": "1.0.0",
+  "description": "Google Hash Code 2020 Qualification round",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henimezrani/Google-hashcode.git"
+  },
+  "author": "BallFondlers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henimezrani/Google-hashcode/issues"
+  },
+  "homepage": "https://github.com/henimezrani/Google-hashcode#readme"
+}
