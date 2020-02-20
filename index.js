@@ -49,9 +49,23 @@ var main = input => {
     }
   })
 
-  libraries.sort((a, b) => b.weighted - a.weighted)
+  libraries.sort((a, b) => b.weighted*((num_days-b.bootup)*b.rate) - a.weighted*((num_days-a.bootup)*a.rate))
+  // libraries.sort((a, b) => b.weighted - a.weighted)
 
   return libraries;
 };
 
-console.log(main(inputs[0]));
+var result = main(inputs[2]);
+
+console.log(result.map(x => ({id: x.id, score: x.weighted})))
+
+
+
+function writeToFile(file) {
+  var libs = main(file);
+  var str = ""+libs.length + "\n" ;
+  for(var lib of libs) {
+    
+  }
+  
+}

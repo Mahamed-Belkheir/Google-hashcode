@@ -1,6 +1,6 @@
 class Library {
-  constructor(id, count, bootup, rate) {
-    this.id = id;
+  constructor(count, bootup, rate) {
+    this.id;
     this.books = {};
     this.rate = rate;
     this.bootup = bootup;
